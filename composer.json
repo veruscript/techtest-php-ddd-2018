@@ -1,0 +1,20 @@
+{
+    "name": "veruscript/techtest-php-ddd-2018",
+    "description": "A PHP technical test to demonstrate Domain-Driven Design, Automated Testing, and general Object-Orientated PHP",
+    "type": "project",
+    "require-dev": {
+        "phpspec/phpspec": "^4.2",
+        "behat/behat": "^3.4"
+    },
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^7.0"
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Veruscript\\TechTest\\": "lib"
+        }
+    }
+}
